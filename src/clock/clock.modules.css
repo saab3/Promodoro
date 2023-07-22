@@ -1,0 +1,60 @@
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-circle{
+    background : rgb(20,24,50);
+    background : linear-gradient(135deg, rgba(20,24,50,1) 31%, rgba(41,45,82,1) 100%);
+    width      : 40rem ;
+    height     : 40rem ;
+    border-radius: 100% ;
+    -webkit-box-shadow  :-52px -52px 38px -12px rgba(41,45,82,1),52px 52px 38px -12px #151932;
+    -moz-box-shadow     :-52px -52px 38px -12px rgba(41,45,82,1),52px 52px 38px -12px #151932;
+    box-shadow          :-52px -52px 38px -12px rgba(41,45,82,1),52px 52px 38px -12px #151932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle{
+    background: #151932;
+    width : 90%;
+    height: 90%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 600;
+    color: #D7E0FF;
+}
+
+.ring{
+    width  : 88%;
+    height : 88%;
+    background-color: #d7e0ff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+svg{
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-90deg);
+}
+
+.pause{
+    letter-spacing: 20px;
+    font-size: 40px;
+    color: #D7E0FF;
+    font-weight: 100;
+}
+
+.pause:hover{
+    color: #FA7070;
+}

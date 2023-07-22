@@ -1,0 +1,50 @@
+.wrapper,.periods{
+    height: 6rem;
+    display: flex;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 2rem;
+    gap:1px;
+}
+
+.increment{
+    border-radius: 0px;
+    border-top-right-radius: 2rem;
+    width: 1rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decrement{
+    border-radius: 0px;
+    border-bottom-right-radius: 2rem;
+    width: 1rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 5.5rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-left: 2rem;
+    width: 7rem;
+    font-size: 45px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: aliceblue;
+    color: black;
+}
+
+input:focus-visible{
+    outline: none;
+}
