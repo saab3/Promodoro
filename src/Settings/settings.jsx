@@ -30,8 +30,7 @@ export default function Settings({hidden : hidden , setHidden:setHidden , settin
             <div className="modal-body">
                 <p>TIME (MINUTES)</p>
                 <div className="periods">
-                    <Input type="time"       set = {(x)=>{updatePromodoro(x) 
-                                                    console.log("x",x)}}/>
+                    <Input type="time"       set = {(x)=>{updatePromodoro(x) }}/>
                     <Input type="shortBreak" set = {(x)=>{updateShortBreak(x)}}/>
                     <Input type="longBreak"  set = {(x)=>{updateLongBreak(x)}}/>
                 </div>

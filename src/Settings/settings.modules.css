@@ -80,6 +80,9 @@
     height: 2rem;
 }
 
+.periods div p{
+    padding-left: 0;
+}
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {
