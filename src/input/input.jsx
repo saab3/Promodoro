@@ -28,7 +28,7 @@ export default function Input(
     
   return (
     <div style={{display:"flex",flexDirection:"column" , alignItems:"flex-start"}} > 
-        <p style={{fontSize:"25px", paddingLeft:"1rem",letterSpacing:"0px"}}>{type}</p>
+        <p style={{fontSize:"15px", paddingLeft:"1rem",letterSpacing:"0px"}}>{type}</p>
         <div className='wrapper'>
             <input type="text" maxLength={2}  value={counter}/>
             <div className="buttons">

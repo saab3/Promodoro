@@ -43,7 +43,7 @@ function App() {
       <Menu     setMode ={(x)=>{setMode(x)}} />
       <Clock    mode    ={mode}      togglePause={()=>{togglePause(mode)}} settings={settings}/>
       <Settings hidden  ={hidden}    setHidden={setHidden}     settings={settings} setSettings={(x)=>{updateSettings(x)}}/>
-      <button   onClick ={()=>{setHidden(!hidden)}}>Settings</button>
+      <button   onClick ={()=>{setHidden(!hidden)}} style={{width:"9rem", height:"3rem",fontSize:"15px"}}>Settings</button>
     </div>
     </>
   )

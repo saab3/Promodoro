@@ -38,12 +38,12 @@ export default function Clock({mode:mode , togglePause:togglePause , settings:se
           <div className="inner-circle">
             <div className="ring">
               {pad(Math.floor(time/60),2)} : {pad(time%60,2)}
-              <a href='#' className='pause' onClick={()=>{togglePause()}}>{settings[mode].paused == true ? "Resume" : "Pause"}</a>
+              <p href='#' className='pause' style={{textAlign:"center"}} onClick={()=>{togglePause()}}>{settings[mode].paused == true ? " Resume" : "Pause"}</p>
             </div>
-          <svg width="600" height="600" viewBox="0 0 120 120">
-              <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" strokeWidth="1" />
+          <svg width="400" height="400" viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="40" fill="none" stroke="#e6e6e6" strokeWidth="1" />
               <circle style={{strokeDasharray:"100"
-                             ,strokeDashoffset:`calc(${per})`}} cx="60" cy="60" r="54" fill="none" stroke="#FA7070"  strokeLinecap="round" strokeWidth="2" pathLength="100" />
+                             ,strokeDashoffset:`calc(${per})`}} cx="60" cy="60" r="40" fill="none" stroke="#FA7070"  strokeLinecap="round" strokeWidth="1" pathLength="100" />
           </svg>
           </div>
         </div>
