@@ -24,15 +24,15 @@ export default function Settings({hidden : hidden , setHidden:setHidden , settin
             <div className="head">
                 <p><strong>Settings</strong></p>
                 <div onClick={()=>{setHidden(true)}} style={{cursor:"pointer"}} className='close-button'>
-                    <p >x</p>
+                    <p>x</p>
                 </div>
             </div>
             <div className="modal-body">
                 <p>TIME (MINUTES)</p>
                 <div className="periods">
-                    <Input type="time"       set = {(x)=>{updatePromodoro(x) }}/>
-                    <Input type="shortBreak" set = {(x)=>{updateShortBreak(x)}}/>
-                    <Input type="longBreak"  set = {(x)=>{updateLongBreak(x)}}/>
+                    <Input type="Time"        set = {(x)=>{updatePromodoro(x) }}/>
+                    <Input type="Short Break" set = {(x)=>{updateShortBreak(x)}}/>
+                    <Input type="Long Break"  set = {(x)=>{updateLongBreak(x)}}/>
                 </div>
             </div>
         </div>

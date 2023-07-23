@@ -7,12 +7,6 @@ export default function Input(
 ) {
     const [counter, setCounter] = useState(0)
 
-    if (type === "setTime") {
-        console.log("setTime")
-    }else if(type== "setShortBreak"){
-        console.log("setShortreak")
-    }
-
     function updateCounterUp(){
             setCounter(counter + 1)
             set(counter+1)

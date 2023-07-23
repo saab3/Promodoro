@@ -39,7 +39,7 @@ function App() {
   return (
     <>
     <div className='app-wrapper'>
-      <p style={{fontSize:"50px" ,fontWeight:"700", color:"#D7E0FF"}}>promodoro</p>
+      <p style={{fontSize:"50px" ,fontWeight:"700", color:"#D7E0FF"}}>Promodoro</p>
       <Menu     setMode ={(x)=>{setMode(x)}} />
       <Clock    mode    ={mode}      togglePause={()=>{togglePause(mode)}} settings={settings}/>
       <Settings hidden  ={hidden}    setHidden={setHidden}     settings={settings} setSettings={(x)=>{updateSettings(x)}}/>
